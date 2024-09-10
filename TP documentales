@@ -1,0 +1,81 @@
+PRODUCTOS SUPERMERCADO
+[
+    {
+        "id": 1,
+        "nombre": "Amanda",
+        "categoria": 1,
+        "tipo":1,
+        "presentaciones": [
+                           { 
+                            "id":1,
+                            "paquete": "500 gr"
+                           },
+                           {
+                            "id":2,
+                            "paquete": "1 kg"
+                           }
+                        ]
+
+    },
+    {
+        "id": 2,
+        "nombre": "Coca Cola",
+        "categoria": 2,
+        "tipo": 3,
+        "presentaciones": [
+                           { 
+                            "id":1,
+                            "envase": "500 ml"
+                           },
+                           {
+                            "id":2,
+                            "envase": "1 lt"
+                           }
+                        ]
+
+    },
+    {
+        "id": 1,
+        "nombre": "tomates",
+        "categoria": 3,
+        "tipo": 2,
+        "presentaciones": [
+                           { 
+                            "id":1,
+                            "caja": "2 unidades"
+                           },
+                           {
+                            "id":2,
+                            "caja": "4 unidades"
+                           }
+                        ]
+
+    },
+    "categorias"
+    {
+        "id": 1,
+        "categoria": "almacen"
+    },
+    {
+        "id": 2,
+        "categoria": "kiosco"
+
+    },
+    {
+        "id": 3,
+        "categoria": "verduleria" 
+    },
+    "Tipos de productos"
+    {
+        "id": 1,
+        "tipo": "yerbas"
+    }
+    {
+        "id": 2,
+        "tipo": "verduras"
+    }
+    {
+        "id": 3,
+        "tipo": "gaseosas"
+    }
+]

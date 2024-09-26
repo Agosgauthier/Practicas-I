@@ -1,0 +1,29 @@
+// request y response
+
+//GET: http://instagram.com/users?id=2
+
+[
+    {
+        "status": 100,
+        "users":{
+                 "id": 2,
+                 "nombre": "Agostina",
+                 "apellido": "Gauthier",
+                 "gmail": "gauthieragostina@gmail,com";
+                 }
+    }
+]
+
+//PUT: http://instagram.com/v1/user?id=2
+
+[
+    {
+        "status": 101,
+        "users": {
+                 "id": 2,
+                 "nombre": "Agostina",
+                 "apellido": "Gauthier",
+                 "gmail": "gauthieragostina@gmail.com";
+                 }
+     }
+]
